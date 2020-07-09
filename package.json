@@ -1,0 +1,20 @@
+{
+  "name": "maps_ts",
+  "version": "1.0.0",
+  "description": "# Setup 1. First of all you need generate a Google dev project.     - Create new project or if you want use exciting one.     - In library we should find maps JavaScript api.     - console: https://console.developers.google.com/ 2. Enable google maps support inside the project 3. Generate api key 4. Add google maps script in the project. ```     <script src=\"https://maps.googleapis.com/maps/api/js?key=yout api key on step 3\"></script> ```",
+  "main": "index.js",
+  "dependencies": {
+    "faker": "^4.1.0",
+    "parcel-bundler": "^1.12.4"
+  },
+  "devDependencies": {
+    "@types/faker": "^4.1.12",
+    "@types/googlemaps": "^3.39.8",
+    "typescript": "^3.9.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
